@@ -1,24 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import BookList from "./components/BooksList";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+      <nav className="navbar navbar-dark bg-dark text-light">
+        Harry's Adventure Series
+      </nav>
+
+      <BookList />
+
+      <footer className="card-footer text-light bg-dark">
+        <p className="text-center">2019</p>
+      </footer>
+
     </div>
   );
 }
