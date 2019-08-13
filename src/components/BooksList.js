@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { calculatePrice } from "../actions/priceCalculator";
+import calculatePrice from "../actions/priceCalculator";
 
 import h1 from "../img/h1.jpg";
 import h2 from "../img/h2.jpg";

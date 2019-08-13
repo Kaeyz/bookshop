@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing app with snapshot must match snapshot 1`] = `
+<div>
+  <nav
+    className="navbar navbar-dark bg-dark text-light"
+  >
+    <h5>
+      Harry's Adventure Series
+    </h5>
+  </nav>
+  <BooksList />
+  <footer
+    className="card-footer text-light bg-dark"
+  >
+    <p
+      className="text-center"
+    >
+      2019
+    </p>
+  </footer>
+</div>
+`;

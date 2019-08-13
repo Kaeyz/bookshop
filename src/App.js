@@ -6,9 +6,9 @@ import BookList from "./components/BooksList";
 
 function App() {
   return (
-    <div className="">
+    <div>
       <nav className="navbar navbar-dark bg-dark text-light">
-        Harry's Adventure Series
+       <h5>Harry's Adventure Series</h5>
       </nav>
 
       <BookList />
@@ -16,7 +16,6 @@ function App() {
       <footer className="card-footer text-light bg-dark">
         <p className="text-center">2019</p>
       </footer>
-
     </div>
   );
 }

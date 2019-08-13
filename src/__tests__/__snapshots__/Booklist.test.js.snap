@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing bookList with snapshot must match snapshot 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="cart_section"
+  >
+    <button
+      className="btn btn-dark cart_total"
+      type="button"
+    >
+      Cart
+      <span
+        className="badge badge-light ml-2"
+      >
+        0
+      </span>
+    </button>
+    <button
+      className="btn btn-dark cart_total"
+      type="button"
+    >
+      Price
+      <span
+        className="badge badge-light ml-2"
+      >
+        0 Euro
+      </span>
+    </button>
+    <button
+      className="btn btn-dark cart_total"
+      onClick={[Function]}
+      type="button"
+    >
+      Add To Cart
+    </button>
+  </div>
+  <div
+    className="book_list"
+  >
+    <div
+      className="card"
+      key="0"
+    >
+      <img
+        alt="Harry Adventures"
+        className="card-img-top img"
+        src="h1.jpg"
+      />
+      <div
+        className="card-body"
+      >
+        <p
+          className="card-text"
+        >
+          Harry Adventures
+        </p>
+      </div>
+      <div
+        className="card-footer"
+      >
+        <div
+          className="input-group mb-12"
+        >
+          <input
+            className="form-control"
+            name="book1"
+            onChange={[Function]}
+            placeholder="Quantity"
+            type="number"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="card"
+      key="1"
+    >
+      <img
+        alt="Harry's Bearded Adventures"
+        className="card-img-top img"
+        src="h2.jpg"
+      />
+      <div
+        className="card-body"
+      >
+        <p
+          className="card-text"
+        >
+          Harry's Bearded Adventures
+        </p>
+      </div>
+      <div
+        className="card-footer"
+      >
+        <div
+          className="input-group mb-12"
+        >
+          <input
+            className="form-control"
+            name="book2"
+            onChange={[Function]}
+            placeholder="Quantity"
+            type="number"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="card"
+      key="2"
+    >
+      <img
+        alt="Harry and the Princess"
+        className="card-img-top img"
+        src="h3.jpg"
+      />
+      <div
+        className="card-body"
+      >
+        <p
+          className="card-text"
+        >
+          Harry and the Princess
+        </p>
+      </div>
+      <div
+        className="card-footer"
+      >
+        <div
+          className="input-group mb-12"
+        >
+          <input
+            className="form-control"
+            name="book3"
+            onChange={[Function]}
+            placeholder="Quantity"
+            type="number"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="card"
+      key="3"
+    >
+      <img
+        alt="Harry's Adventures in Plugovia"
+        className="card-img-top img"
+        src="h4.jpg"
+      />
+      <div
+        className="card-body"
+      >
+        <p
+          className="card-text"
+        >
+          Harry's Adventures in Plugovia
+        </p>
+      </div>
+      <div
+        className="card-footer"
+      >
+        <div
+          className="input-group mb-12"
+        >
+          <input
+            className="form-control"
+            name="book4"
+            onChange={[Function]}
+            placeholder="Quantity"
+            type="number"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="card"
+      key="4"
+    >
+      <img
+        alt="Harry goes to the Beach"
+        className="card-img-top img"
+        src="h5.jpg"
+      />
+      <div
+        className="card-body"
+      >
+        <p
+          className="card-text"
+        >
+          Harry goes to the Beach
+        </p>
+      </div>
+      <div
+        className="card-footer"
+      >
+        <div
+          className="input-group mb-12"
+        >
+          <input
+            className="form-control"
+            name="book5"
+            onChange={[Function]}
+            placeholder="Quantity"
+            type="number"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

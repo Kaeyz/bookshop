@@ -61,7 +61,7 @@ const calculateQuantity = (books) => {
   }
 }
 
-export const calculatePrice = (cart) => {
+export default function calculatePrice(cart) {
   const setOfBooks = sortToSet(cart);
   const priceForEachSet = calcTotalPrice(setOfBooks);
   const totalDiscountForEachSet = calcDiscount(priceForEachSet, setOfBooks);
